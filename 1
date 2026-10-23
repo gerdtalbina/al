@@ -1,0 +1,12 @@
+import numpy as np 
+import matplotlib.pyplot as plt 
+import math
+
+x = np.arange(-5, 6, 0.01)
+y = x**2 - x - 6
+
+plt.plot (x, y, color = '#9D58C4')
+plt.grid()
+plt.axhline(0, color = 'pink')
+plt.axvline(0, color = 'pink')
+plt.show()

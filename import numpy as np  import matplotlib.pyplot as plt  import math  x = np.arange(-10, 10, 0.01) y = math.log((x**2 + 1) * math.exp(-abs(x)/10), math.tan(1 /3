@@ -1,0 +1,9 @@
+import numpy as np 
+import matplotlib.pyplot as plt 
+import math
+
+x = np.arange(-10, 10, 0.01)
+y = math.log((x**2 + 1) * math.exp(-abs(x)/10), math.tan(1 / 1 + math.sin(x)**2))
+
+plt.plot (x, y, color = '#9D58C4')
+plt.show()
